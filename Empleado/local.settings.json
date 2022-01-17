@@ -4,7 +4,11 @@
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     //"AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=productos2;AccountKey=2BBK5Lmijjcdvr44Xxm07Gq/pRZbNiZlFDa+8ueMTAVknseAob2jwMR/xlnoFHSfIn1gdlSAESp85xgY7IzoIg==;EndpointSuffix=core.windows.net",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-    "CosmosDBConnection": "AccountEndpoint=https://localhost:8081/;AccountKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==;"
+    "CosmosDBConnection": "AccountEndpoint=https://localhost:8081/;AccountKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==;",
     //"CosmosDBConnection": "AccountEndpoint=https://clibercastillo.documents.azure.com:443/;AccountKey=dWZ1VLBDKwSttIzH2wOPGyOsTLDkDD87cexHmole2jLFAQIRONs76JuQBjbffsnGB3YsCRzsEN18Ah535mJmpg==;"
+    "TwilioAccountSid": "ACd5ae66f43fe0ff9ac536eab606419ca2",
+    "TwilioAuthToken": "05bbdcd7e60d25bbb22597aa3dc3d22d",
+    "FromPhoneNumber": "+19377499195",
+    "ToPhoneNumber": "+51960064626"
   }
 }

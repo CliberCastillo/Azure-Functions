@@ -33,6 +33,9 @@ namespace Empleado
                 LastName = employe.LastName,    
                 Age = employe.Age
             });
+            log.LogInformation($"Name {employe.Name}");
+            log.LogInformation($"LastName {employe.LastName}");
+            log.LogInformation($"Age {employe.Age}");
             return new OkObjectResult(employe);
         }
     }
