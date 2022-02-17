@@ -22,7 +22,7 @@ namespace Employes
                 collectionName: "Employe",
                 ConnectionStringSetting = "CosmosDBConnection",
                 LeaseCollectionName = "leases", CreateLeaseCollectionIfNotExists = true)]IReadOnlyList<Document> input,
-            [Queue("Employe",Connection = "AzureWebJobsStorage")] IAsyncCollector<Employe> enployeQueue,
+            [Queue("Employe",Connection = "AzureWebJobsStorage")] IAsyncCollector<Employe> employeQueue,
             [Blob("employe/{rand-guid}.json")] TextWriter outputblob,
             [TwilioSms(AccountSidSetting = "TwilioAccountSid",AuthTokenSetting = "TwilioAuthToken")] IAsyncCollector<CreateMessageOptions> messageCollector,
             ILogger log)
